@@ -19,3 +19,13 @@ There is no automated checking on this one
 """
 
 shopping_list = []
+print("P.S. Enter Exit when you want to stop inputting items")
+i=0
+while 1:
+        i+=1
+        item=input('Enter item %d: '%i)
+        if item=='Exit':
+            break
+            shopping_list.append(item)
+        for item in shopping_list:
+            print(item)
